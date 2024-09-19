@@ -289,4 +289,8 @@ input[type='submit'] {
     .name__email__form {
         flex-direction: column;
     }
+
+    label:nth-child(2) {
+        margin-top: 10px;
+    }
 }
