@@ -253,3 +253,40 @@ input[type='submit'] {
         width: 100%;
     }
 }
+
+/**** Responsive design Mobile ****/
+
+@media screen and (max-width: 768px) {
+    .navigation,
+    footer {
+        flex-direction: column;
+    }
+
+    .navigation div,
+    footer div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon__link,
+    .nav__link {
+        margin-bottom: 15px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .introduction img, 
+    article {
+        width: 100%;
+    }
+
+    .presentation h1 {
+        font-size: 2.4em;
+    }
+
+    .name__email__form {
+        flex-direction: column;
+    }
+}
