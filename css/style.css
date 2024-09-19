@@ -228,3 +228,28 @@ input[type='submit'] {
     cursor: pointer;
 }
 
+/**** Responsive design Tablette ****/
+
+@media screen and (max-width: 992px) {
+    .introduction {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .presentation h1, 
+    .presentation p {
+        margin: 15px;
+    }
+
+    .last__project article {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
