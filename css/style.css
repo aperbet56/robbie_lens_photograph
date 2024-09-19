@@ -1,87 +1,4 @@
-/**** Imoprtation des polices ****/
-
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/**** Variables css ****/
-
-:root{
-    --monserrat : 'Montserrat', sans-serif;
-    --manrope : 'Manrope', sans-serif;
-    --important : #b8c1ec;
-    --links : #242424;
-    --colorPrimary : #242846;
-    --colorSecondary : #ffffff;
-}
-/**** Reset ****/
-
-*,
-::before,
-::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-}
-
-a {
-    color: var(--links);
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
 /**** Style général de la page ****/
-
-body {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: var(--manrope);
-    background-color: var(--colorPrimary);
-}
-
-header {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-header, 
-footer {
-    background-color: var(--colorSecondary);
-    padding: 20px 50px;
-}
-
-.navigation, 
-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav__link, 
-.icon__link {
-    margin-left: 30px;
-}
-
-.nav__link,
-.icon__link {
-    transition: opacity 0.3s ease-in-out;
-}
-
-.nav__link:hover,
-.icon__link:hover {
-    opacity: 0.5
-}
-
-.main__content {
-    flex-grow: 1;
-}
-
-section {
-    padding: 80px; 
-}
 
 .introduction {
     display: flex;
@@ -102,42 +19,10 @@ section {
     text-align: center;
 }
 
-.presentation h1 {
-    font-size: 3.2em;
-    color: var(--important);
-    font-family: var(--monserrat);
-    margin: 10px;
-}
-
 .presentation p {
-    font-size: 1.1em;
     line-height: 1.5;
-    color: var(--colorSecondary);
     margin: 10px;
     letter-spacing: 1px;
-}
-
-em {
-    color: var(--important);
-    font-style: italic;
-}
-
-.actions {
-    display: inline-block;
-    background-color: var(--important);
-    color: var(--colorSecondary);
-    border-radius: 50px;
-    padding: 20px 30px;
-    margin: 20px 10px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 1em;
-    font-weight: 500;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.actions:hover {
-    opacity: 0.9;
 }
 
 .last__project {
@@ -257,25 +142,6 @@ input[type='submit'] {
 /**** Responsive design Mobile ****/
 
 @media screen and (max-width: 768px) {
-    .navigation,
-    footer {
-        flex-direction: column;
-    }
-
-    .navigation div,
-    footer div {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .icon__link,
-    .nav__link {
-        margin-bottom: 15px;
-    }
-
-    section {
-        padding: 20px;
-    }
 
     .introduction img, 
     article {
