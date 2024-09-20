@@ -63,3 +63,16 @@ th {
 td {
     padding: 80px;
 }
+
+/**** Responsive design Tablette ****/
+
+@media screen and (max-width: 992px) {
+    .article__container {
+        width: 100%;
+        padding: 30px;
+    }
+
+    td {
+        padding: 50px;
+    }
+}
