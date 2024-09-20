@@ -76,3 +76,24 @@ td {
         padding: 50px;
     }
 }
+
+/**** Responsive design Mobile ****/
+
+@media screen and (max-width: 768px) {
+    td,
+    th {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    td {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .price__container {
+        display: none;
+    }
+}
