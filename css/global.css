@@ -3,12 +3,14 @@
 /**** Variables css ****/
 
 :root{
-    --monserrat : 'Montserrat', sans-serif;
-    --manrope : 'Manrope', sans-serif;
-    --important : #b8c1ec;
-    --links : #242424;
-    --colorPrimary : #242846;
-    --colorSecondary : #ffffff;
+    --monserrat : "Montserrat", sans-serif;
+    --manrope : "Manrope", sans-serif;
+    --important : #eebbc3;
+    --text : #242424;
+    --colorPrimary : #232946;
+    --colorSecondary : #fffffe;
+    --paragraph : #b8c1ec;
+
 }
 
 /**** Reset ****/
@@ -24,9 +26,14 @@
 }
 
 a {
-    color: var(--links);
+    color: var(--text);
     text-decoration: none;
     font-size: 1.1em;
+}
+
+ul,
+ol {
+    list-style-type: none;
 }
 
 /**** Style global à toutes les pages ****/
@@ -60,7 +67,7 @@ footer {
 }
 
 .nav__link, 
-.icon__link{
+.icon__link {
     margin-left: 30px;
 }
 
@@ -89,10 +96,9 @@ h1 {
     margin: 10px;
 }
 
-p,
-li {
+p {
     font-size: 1.1em;
-    color: var(--colorSecondary);
+    color: var(--paragraph);
     line-height: 1.5;
     margin: 10px;
     letter-spacing: 1px;
@@ -106,7 +112,7 @@ em {
 .actions {
     display: inline-block;
     background-color: var(--important);
-    color: var(--colorSecondary);
+    color: var(--text);
     border-radius: 50px;
     padding: 20px 30px;
     margin: 20px 10px;
@@ -114,12 +120,12 @@ em {
     text-align: center;
     font-size: 1em;
     font-weight: 500;
-    transition: opacity 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .actions:hover {
-    opacity: 0.9;
-}
+    background-color: var(--paragraph);
+} 
 
 /**** Responsive design Mobile ****/
 
@@ -141,7 +147,7 @@ em {
     }
 
     section {
-        padding: 20px;
+        padding: 40px;
     }
 
     h1 {
