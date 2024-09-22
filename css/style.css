@@ -30,7 +30,7 @@
 }
   
 .last__project h2 {
-    color: var(--links);
+    color: var(--text);
     text-align: center;
     margin-bottom: 80px;
 }
@@ -100,7 +100,7 @@ textarea {
 
 input:focus, 
 textarea:focus {
-    box-shadow: 0 1px 6px var(--important);
+    box-shadow: 0 1px 6px var(--paragraph);
 }
   
 label {
@@ -108,7 +108,7 @@ label {
     margin-bottom: 10px;
 }
   
-input[type='submit'] {
+input[type="submit"] {
     width: 200px;
     margin: auto;
     margin-top: 30px;
