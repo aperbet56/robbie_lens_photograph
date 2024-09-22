@@ -1,5 +1,26 @@
 /**** Style général de la page ****/
 
+blockquote {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: var(--paragraph);
+    width: 60vw;
+    margin: 45px auto 15px auto;
+    text-align: center;
+}
+
+blockquote span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--important);
+    font-weight: 300;
+    letter-spacing: 5px;
+    display: block;
+    margin-top: 20px;
+}
+
 .portfolio {
     background-color: var(--colorSecondary);
 }
