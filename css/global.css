@@ -123,6 +123,21 @@ em {
     transition: background-color 0.3s ease-in-out;
 }
 
+footer {
+    flex-direction: column;
+}
+
+footer .icon__link:first-child {
+    margin-bottom: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: var(--text);
+    font-weight: 500;
+    margin-top: 15px;
+}
+
 .actions:hover {
     background-color: var(--paragraph);
 } 
