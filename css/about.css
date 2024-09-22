@@ -1,50 +1,117 @@
 /**** Style général de la page ****/
 
-h1,
-h2 {
-    text-align: center;
-}
-
 h1 {
     margin-bottom: 30px;
+    text-align: left;
+}
+
+p {
+    margin-bottom: 50px;
 }
 
 h2 {
+    text-align: center;
     margin-bottom: 50px;
     color: var(--colorSecondary);
 }
 
-.article__container {
-    border: 1px solid var(--important);
-    border-radius: 8px;
-    padding: 50px;
-    width: 50%;
-    margin: auto;
-    margin-bottom: 80px;
+.about__container {
+    background-color: var(--colorPrimary);
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.articles__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.landscapes__card,
+.portraits__card,
+.reportages__card {
+    width: 312px;
+    border: 1px solid var(--important);
+    border-radius: 8px;
+    padding: 12px;
+}
+
+figure {
+    width: 100%;
+    height: fit-content;
+}
+
+figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+figcaption h2 {
+    text-align: center;
+    color: var(--important);
+    font-size: 26px;
+}
+
+.btn {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-  
-.article__container h2 {
-    margin-top: 30px;
+
+.services__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
 }
 
-.article__container p {
-    margin-bottom: 60px;
-}
-  
-.article__container ul {
-    margin-top: 30px;
+.service__list {
+    position: relative;
+    border: 1px solid var(--important);
+    border-radius: 8px;
+    width: 45%;
+    background-color: var(--colorSecondary);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
-.article__container + div {
+.service__list:hover {
+    background-color: var(--colorPrimary);
+}
+
+.service__list h3 {
+    color: var(--important);
     text-align: center;
 }
 
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--important);
+    color: var(--colorSecondary);
+    width: 22px;
+    height: 22px;
+    border: 1px solid var(--important);
+    border-radius: 100px;
+    font-size: 14px;
+    position: absolute;
+    left: -11px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .price__container {
-    margin: 0 0 30px 0;
+    margin-bottom: 70px;
 }
   
 table {
@@ -67,9 +134,26 @@ td {
 /**** Responsive design Tablette ****/
 
 @media screen and (max-width: 992px) {
-    .article__container {
+    .articles__cards {
+        flex-direction: column;
+    }
+
+    .landscapes__card,
+    .portraits__card,
+    .reportages__card {
         width: 100%;
-        padding: 30px;
+    }
+
+    figure img {
+        object-fit: contain;
+    }
+
+    .services__list {
+        flex-direction: column;
+    }
+
+    .service__list {
+        width: 100%;
     }
 
     td {
@@ -80,19 +164,6 @@ td {
 /**** Responsive design Mobile ****/
 
 @media screen and (max-width: 768px) {
-    td,
-    th {
-        padding: 10px;
-        font-size: 1em;
-    }
-
-    td {
-        padding: 10px;
-        font-size: 0.9em;
-    }
-}
-
-@media screen and (max-width: 375px) {
     .price__container {
         display: none;
     }
