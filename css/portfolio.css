@@ -1,7 +1,7 @@
 /**** Style général de la page ****/
 
 blockquote {
-    font-size: 20px;
+    font-size: 1.3em;
     letter-spacing: 1px;
     line-height: 1.5;
     font-weight: 300;
@@ -12,7 +12,7 @@ blockquote {
 }
 
 blockquote span {
-    font-size: 14px;
+    font-size: 0.8em;
     text-transform: uppercase;
     color: var(--important);
     font-weight: 300;
@@ -24,10 +24,13 @@ blockquote span {
 .portfolio {
     background-color: var(--colorSecondary);
 }
+
+h2 {
+    margin-bottom: 80px;
+}
   
 .portfolio h2 {
     color: var(--text);
-    margin-bottom: 80px;
 }
   
 .landscapes,
@@ -71,6 +74,26 @@ blockquote span {
   
 .img__link:hover .photo__hover {
     display: flex;
+}
+
+.conclusion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conclusion h2 {
+    color: var(--colorSecondary);
+}
+
+.conclusion h2,
+.conclusion p {
+    text-align: center;
+}
+
+.conclusion p {
+    margin-bottom: 80px;
 }
 
 /**** Responsive design Tablette ****/
