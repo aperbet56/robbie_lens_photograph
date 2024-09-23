@@ -123,6 +123,21 @@ em {
     transition: background-color 0.3s ease-in-out;
 }
 
+.arrow__btn {
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-color: var(--important);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
 footer {
     flex-direction: column;
 }
