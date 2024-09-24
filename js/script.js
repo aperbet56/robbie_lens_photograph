@@ -29,3 +29,24 @@ const lastNameValidation = (lastName) => {
 };
 // Appel de la fonction lastNameValidation
 lastNameValidation(lastName);
+
+/**
+ * Déclaration de la fonction emailValidation pour la validation du champ email
+ * @param {String} email
+ */
+const emailValidation = (email) => {
+  // Ecoute de l'événement "change" sur l'input email
+  email.addEventListener("change", (e) => {
+    e.preventDefault();
+    if (email.value.match(regexEmail)) {
+      document.querySelector("#emailErrorMessage").textContent = " ";
+      return true;
+    } else {
+      document.querySelector("#emailErrorMessage").textContent =
+        "Veuillez saisir un email valide, ex : exemple@contact.com";
+      return false;
+    }
+  });
+};
+// Appel de la fonction emailValidation
+emailValidation(email);
