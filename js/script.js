@@ -64,7 +64,7 @@ const send = () => {
       !email.value.match(regexEmail) ||
       textarea.value == ""
     ) {
-      alert("Veuillez remplir correctement les champs");
+      alert("Veuillez remplir correctement tous les champs du formulaire");
     } else {
       const contact = {
         lastName: lastName.value,
