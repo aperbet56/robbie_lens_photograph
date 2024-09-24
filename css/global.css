@@ -124,18 +124,22 @@ em {
 }
 
 .arrow__btn {
-    height: 28px;
-    width: 28px;
+    height: 48px;
+    width: 48px;
     border-radius: 50%;
     background-color: var(--important);
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
-    right: 5px;
+    right: 15px;
     bottom: 20px;
     cursor: pointer;
+}
+
+.arrow__btn i {
+    color: var(--text);
+    font-size: 1.4em;
 }
 
 footer {
@@ -182,5 +186,15 @@ footer p {
 
     h1 {
         font-size: 2.4em;
+    }
+
+    .arrow__btn {
+        height: 28px;
+        width: 28px;
+        right: 5px;
+    }
+
+    .arrow__btn i {
+        font-size: 1.3em;
     }
 }
