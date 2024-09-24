@@ -107,6 +107,13 @@ label {
     font-size: 1em;
     margin-bottom: 10px;
 }
+
+#nameErrorMessage,
+#emailErrorMessage {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
   
 input[type="submit"] {
     width: 200px;
