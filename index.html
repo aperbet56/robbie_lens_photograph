@@ -89,9 +89,10 @@
                 type="text"
                 name="name"
                 id="name"
-                placeholder="Robert"
+                placeholder="Dupont"
                 required
               />
+              <p id="nameErrorMessage"></p>
             </div>
             <div class="form__column">
               <label for="email">Email</label>
@@ -99,9 +100,10 @@
                 type="email"
                 name="email"
                 id="email"
-                placeholder="robert@contact.fr"
+                placeholder="exemple@contact.fr"
                 required
               />
+              <p id="emailErrorMessage"></p>
             </div>
           </div>
           <label for="message">Message</label>
@@ -111,7 +113,12 @@
             rows="10"
             placeholder="Ceci est mon message..."
           ></textarea>
-          <input type="submit" value="Envoyer" class="actions" />
+          <input
+            type="submit"
+            value="Envoyer"
+            class="actions"
+            id="send__form"
+          />
         </form>
       </section>
       <div class="arrow__btn">
@@ -136,5 +143,6 @@
     </footer>
     <!-- Scripts JavaScript-->
     <script src="js/global.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
