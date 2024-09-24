@@ -50,3 +50,36 @@ const emailValidation = (email) => {
 };
 // Appel de la fonction emailValidation
 emailValidation(email);
+
+// //Déclaration de la fonction Send permettant d'envoyer les données
+const send = () => {
+  // Récupération du bouton "S'inscrire !"
+  const sendBtn = document.querySelector("#send__form");
+  // Ecoute de l'événement "click" sur le bouton "Envoyer !"
+  sendBtn.addEventListener("click", (e) => {
+    // Suppression du comportement par défaut
+    e.preventDefault();
+    if (
+      !lastName.value.match(regexName) ||
+      !email.value.match(regexEmail) ||
+      textarea.value == ""
+    ) {
+      alert("Veuillez remplir correctement les champs");
+    } else {
+      const contact = {
+        lastName: lastName.value,
+        email: email.value,
+        textarea: textarea.value,
+      };
+      console.log(contact);
+      alert("Votre message a bien été envoyé !");
+      // Rechargement de la page
+      window.location.reload();
+      lastName.value = "";
+      email.value = "";
+      textarea.value = "";
+    }
+  });
+};
+// Appel de la fonction send()
+send();
