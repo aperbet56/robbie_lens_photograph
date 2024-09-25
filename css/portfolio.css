@@ -34,14 +34,16 @@ h2 {
 }
   
 .landscapes,
-.portraits {
+.portraits,
+.reportages {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 15px;
 }
 
-.landscapes {
+.landscapes,
+.portraits {
     margin-bottom: 80px;
 }
   
@@ -100,7 +102,8 @@ h2 {
 
 @media screen and (max-width: 992px) {
     .landscapes,
-    .portraits {
+    .portraits,
+    .reportages {
         flex-direction: column;
     }
 
@@ -113,7 +116,8 @@ h2 {
 /**** Responsive design Mobile ****/
 
 @media screen and (max-width: 768px) {
-    .landscapes {
-        margin-bottom: 20px;
+    .landscapes,
+    .portraits {
+        margin-bottom: 40px;
     }
 }
