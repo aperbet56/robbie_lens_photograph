@@ -83,3 +83,16 @@ const send = () => {
 };
 // Appel de la fonction send()
 send();
+
+// Déclaration de la fonction updateCounterTextarea qui permettre le calcul des lettres, espaces, signes de ponctuation, chiffres et symbole et bloque l'écriture d'autres éléments
+const updateCounterTextarea = () => {
+  // Récupération de l'élément HTML5 ayant la classe counter
+  const counter = document.querySelector(".counter");
+  counter.textContent =
+    textarea.value.length + "/" + textarea.getAttribute("maxLength"); // Récupérer et afficher le longueur du texte saisi par l'internaute
+};
+// Appel de la fonction updateCounterTextarea
+updateCounterTextarea();
+
+// Ecoute de l'événement "keyup" (qui se déclenche lorsque qu'une touche du clavier qui a été pressée est relâchée) sur la textarea et appel de la fonction updateCounterTextarea
+textarea.addEventListener("keyup", updateCounterTextarea);
