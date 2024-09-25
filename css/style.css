@@ -74,6 +74,7 @@ form {
     flex-direction: column;
     margin: auto;
     color: var(--colorSecondary);
+    position: relative;
 }
   
 .name__email__form {
@@ -112,6 +113,18 @@ label {
 #emailErrorMessage {
     margin: 10px 0;
     font-size: 0.9em;
+}
+
+#message {
+    resize: none;
+    height: 220px;
+}
+
+form span {
+    position: absolute;
+    bottom: 96px;
+    right: 15px;
+    color: var(--text);
 }
 
   
@@ -163,6 +176,10 @@ input[type="submit"] {
 
     .name__email__form {
         flex-direction: column;
+    }
+
+    #message {
+        height: 300px ;
     }
 
     label:nth-child(2) {
