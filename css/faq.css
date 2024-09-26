@@ -94,3 +94,19 @@
         transform: translateY(0);
     }
 }
+
+/**** Responsive design Mobile ****/
+
+@media screen and (max-width: 768px) {
+    .accordion {
+        width: 100%;
+    }
+
+    .fa-solid.fa-chevron-down {
+        display: none;
+    }
+
+    .answer p {
+        font-size: 1em;
+    }
+}
