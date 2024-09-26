@@ -124,10 +124,6 @@ figcaption h2 {
     top: 50%;
     transform: translateY(-50%);
 }
-
-.price__container {
-    margin-bottom: 50px;
-}
   
 table {
     color: var(--colorSecondary);
@@ -144,6 +140,10 @@ th {
   
 td {
     padding: 80px;
+}
+
+.testimonials__container {
+    margin-bottom: 50px;
 }
 
 .testimonials {
