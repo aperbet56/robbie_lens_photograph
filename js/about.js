@@ -12,44 +12,44 @@ const testimonials = [
     note: "4.5/5",
     photo:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=707b9c33066bf8808c934c8ab394dff6",
-    text: "Très bonne photographe, très professionnelle, tout en étant dans l'échange humain. De plus, il est très drôle. On a passé un super moment. Je la conseille fortement !",
+    text: "Très bonne photographe, très professionnelle, tout en étant dans l'échange humain. De plus, elle est très drôle. On a passé un super moment. Je la conseille fortement !",
   },
   {
     name: "Emilie Vidal",
     note: "5/5",
     photo: "https://randomuser.me/api/portraits/women/43.jpg",
-    text: "Photographe passionné par son métier qui est très compétente, accueillant et disponible. Je la recommande fortement !",
+    text: "Photographe passionnée par son métier qui est très compétente, accueillant et disponible. Je la recommande fortement !",
   },
   {
     name: "Noémie Fabre",
     note: "4/5",
     photo: "https://randomuser.me/api/portraits/women/50.jpg",
-    text: "Photographe très agréable même avec les enfants et on repart avec les photos. Rapide et efficace et prix abordables !",
+    text: "Photographe très agréable même avec les enfants et on repart avec les photos. Rapide, efficace et les prix sont abordables !",
   },
   {
     name: "Etienne Collard",
     note: "5/5",
     photo: "https://randomuser.me/api/portraits/men/35.jpg",
-    text: "Personne très professionnelle, à l'écoute de nos attentes, de très bons conseils apportés. Je recommande à 1000 %",
+    text: "Personne très professionnelle, à l'écoute de nos attentes, de très bons conseils apportés. Je la recommande à 1000 % !!",
   },
   {
     name: "Jérémy Garnier",
     note: "4.5/5",
     photo: "https://randomuser.me/api/portraits/men/43.jpg",
-    text: "Photographe passionnée par son métier, super sympa, très sérieuse ! Elle est toujours disponible. Je la recommande à 100%",
+    text: "Photographe passionnée par son métier, super sympa, très sérieuse ! Elle est toujours disponible pour vous et vous propose de magnifiques clichés.",
   },
   {
     name: "Paris Girard",
     note: "5/5",
     photo:
       "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?h=350&auto=compress&cs=tinysrgb",
-    text: "Belle expérience avec une vraie professionnelle de la photographie. Photographe compétente. Prix très raisonnables !",
+    text: "Belle expérience avec une vraie professionnelle de la photographie. Un grand merci à Robbie pour son professionnalisme, sa disponibilité et surtout pour ses magnifiques photos .",
   },
   {
     name: "Lilian Tardy",
     note: "4.5/5",
     photo: "https://randomuser.me/api/portraits/men/12.jpg",
-    text: "Accueil convivial et photographe au top. Madame Lens est toujours disponible et prête à vous aider à réaliser votre projet !!",
+    text: "Accueil convivial et photographe au top, a su nous mettre à l'aise et à l'écoute. Rapidité pour avoir nos photos. Je recommande en tout point..",
   },
 ];
 
