@@ -38,7 +38,8 @@
                 background-color 0.3s ease-in-out;
 }
 
-.faq:hover {
+.faq:hover,
+.faq.active {
     box-shadow: 0 1px 6px var(--colorSecondary);
     background-color: var(--paragraph);
 }
@@ -73,7 +74,7 @@
 }
 
 .faq.active .answer {
-    max-height: 300px;
+    max-height: fit-content; /*300px*/
     animation: fade 1s ease-in-out;
 }
 
