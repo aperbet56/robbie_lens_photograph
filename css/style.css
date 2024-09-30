@@ -64,7 +64,7 @@
 }
 
 .contact h2 {
-    color: var(--important);
+    color: var(--colorSecondary);
     text-align: center;
     margin-bottom: 50px;
 }
