@@ -1,3 +1,92 @@
+/**** Création du loader ****/
+
+.loader {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--colorSecondary);
+    margin: auto;
+    position: fixed;
+    top: 0;
+    right: 0; 
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    animation: display-loader 3s linear;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes display-loader {
+    0% {
+        visibility: visible;
+        opacity: 0.7;
+    }
+
+    70% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.loader span {
+    width: 14px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: var(--colorSecondary);
+    margin: 0 1px;
+    animation: loading 0.8s ease-in-out infinite;
+}
+
+/**** Animation loading ****/
+
+@keyframes loading {
+    0%,
+    60%,
+    100% {
+      transform:scaleY(0.05);
+    }
+
+    35% {
+      transform:scaleY(1);
+    }
+}
+
+.loader span:nth-child(1) {
+    background-color: var(--colorPrimary);
+    animation-delay: -700ms;
+}
+  
+.loader span:nth-child(2) {
+    background-color: var(--important);
+    animation-delay: -600ms;
+}
+  
+.loader span:nth-child(3) {
+    background-color: var(--paragraph);
+    animation-delay: -500ms;
+}
+
+.loader span:nth-child(4) {
+    background-color: var(--colorPrimary);
+    animation-delay: -400ms;
+}
+
+.loader span:nth-child(5) {
+    background-color: var(--important);
+    animation-delay: -300ms;
+}
+
+.loader span:nth-child(6) {
+    background-color: var(--paragraph);
+    animation-delay: -200ms;
+}
+
 /**** Style général de la page ****/
 
 blockquote {
