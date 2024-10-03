@@ -69,10 +69,6 @@ footer {
 .nav__link, 
 .icon__link {
     margin-left: 30px;
-}
-
-.nav__link,
-.icon__link {
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -104,9 +100,10 @@ p {
     letter-spacing: 1px;
 }
 
-em {
-    color: var(--important);
-    font-style: italic;
+h2 {
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 .actions {
@@ -122,6 +119,10 @@ em {
     font-weight: 500;
     transition: background-color 0.3s ease-in-out;
 }
+
+.actions:hover {
+    background-color: var(--paragraph);
+} 
 
 .arrow__btn {
     height: 48px;
@@ -157,9 +158,6 @@ footer p {
     margin-top: 15px;
 }
 
-.actions:hover {
-    background-color: var(--paragraph);
-} 
 
 /**** Responsive design Mobile ****/
 

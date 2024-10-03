@@ -113,10 +113,6 @@ blockquote span {
 .portfolio {
     background-color: var(--colorSecondary);
 }
-
-h2 {
-    margin-bottom: 80px;
-}
   
 .portfolio h2 {
     color: var(--text);
@@ -178,12 +174,8 @@ h2 {
     color: var(--colorSecondary);
 }
 
-.conclusion h2,
 .conclusion p {
     text-align: center;
-}
-
-.conclusion p {
     margin-bottom: 80px;
 }
 
@@ -199,7 +191,6 @@ h2 {
     .img__link {
         width: 100%;
     }
-
 }
 
 /**** Responsive design Mobile ****/

@@ -9,8 +9,6 @@ h1 {
 }
 
 h2 {
-    text-align: center;
-    margin-bottom: 50px;
     color: var(--colorSecondary);
 }
 
@@ -66,9 +64,7 @@ figure img {
 }
 
 figcaption h2 {
-    text-align: center;
     color: var(--important);
-    font-size: 1.6em;
 }
 
 .btn {
@@ -220,7 +216,6 @@ td {
     font-weight: normal;
     margin: 6px 0;
 }
-
 
 /**** Responsive design Tablette ****/
 
