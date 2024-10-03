@@ -1,3 +1,5 @@
+/**** Stykle général de la page ****/
+
 .faq__introduction p {
     width: 60vw;
     margin: 45px auto;
@@ -24,7 +26,6 @@
 .accordion h2 {
     color: var(--colorSecondary);
     text-transform: uppercase;
-    margin-bottom: 80px;
 }
 
 .faq {
@@ -74,14 +75,13 @@
 }
 
 .faq.active .answer {
-    max-height: fit-content; /*300px*/
+    max-height: fit-content; 
     animation: fade 1s ease-in-out;
 }
 
 .faq.active .fa-solid.fa-chevron-down {
     transform: rotate(180deg);
 }
-
 
 /**** Animation fade ****/
 
@@ -96,15 +96,27 @@
     }
 }
 
+/**** Responisve design Tablette ****/
+
+@media screen and (max-width: 992px) {
+    .question {
+        justify-content: center;
+    }
+
+    .question h3 {
+        text-align: center;
+    }
+    
+    .fa-solid.fa-chevron-down {
+        display: none;
+    }
+}
+
 /**** Responsive design Mobile ****/
 
 @media screen and (max-width: 768px) {
     .accordion {
         width: 100%;
-    }
-
-    .fa-solid.fa-chevron-down {
-        display: none;
     }
 
     .answer p {
