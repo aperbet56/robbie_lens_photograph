@@ -1,4 +1,4 @@
-/**** Stykle général de la page ****/
+/**** Style général de la page ****/
 
 .faq__introduction p {
     width: 60vw;
@@ -106,7 +106,7 @@
     .question h3 {
         text-align: center;
     }
-    
+
     .fa-solid.fa-chevron-down {
         display: none;
     }
