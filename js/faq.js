@@ -21,7 +21,7 @@ const faqsArray = [
   {
     question: "Où se trouve le studio ?",
     answser:
-      "Mon studio photo se trouve dans le commune d'Araules à environ 20 minutes d'Yssingeaux.",
+      "Mon studio photo se trouve dans le commune de Araules à environ 20 minutes d'Yssingeaux.",
   },
   {
     question: "Faites-vous des séances photos à domicile ou en extérieur ?",
