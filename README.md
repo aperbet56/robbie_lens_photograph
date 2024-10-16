@@ -9,6 +9,8 @@ Création d'un simple complet responsive et dynamique ROBBIE LENS PHOTGRAPHIE en
 - la page Portfolio
 - et la page FAQ
 
+La redirection vers les différentes pages du site web s'effectue au clic sur les liens présents dans la navigation.
+
 ## Démonstration
 
 Lien vers le projet : https://aperbet56.github.io/robbie_lens_photograph/
@@ -21,8 +23,10 @@ Lien vers le projet : https://aperbet56.github.io/robbie_lens_photograph/
 - Utilsation d'un normaliseur : le fichier normalize.css
 - Importation des polices "Montserrat" et "Manrope"
 - Animations CSS
+- Création d'un loader pour la page portfolio
 - Page web responsive
 - Desktop first
 - JavaScript (fonctions fléchées, écouteurs d'événement, création et ajout d'élément HTML dans le DOM...)
 - Code JavaScript commenté
 - Regex
+- Menu rideau pour la navigation en version mobile
