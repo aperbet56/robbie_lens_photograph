@@ -77,6 +77,10 @@ footer {
     opacity: 0.5
 }
 
+.nav__toggler {
+    display: none;
+}
+
 .main__content {
     flex-grow: 1;
 }
@@ -162,6 +166,12 @@ footer p {
 /**** Responsive design Mobile ****/
 
 @media screen and (max-width: 768px) {
+    header {
+        position: relative;
+        height: 80px;
+        padding: 25px;
+    }
+
     .navigation,
     footer {
         flex-direction: column;
@@ -173,9 +183,73 @@ footer p {
         flex-direction: column;
     }
 
+    .navigation{
+        position: absolute;
+        width: 50%;
+        min-height: 100vh;
+        right: 0;
+        transform: translateX(100%); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorSecondary);
+        padding: 20px 40px; /* Pour la navigation sur le côté */
+        transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
+    }
+
+    .navigation.active {
+        transform: translate(0);
+    }
+
+    .nav__toggler {
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        z-index: 10;
+    }
+
+    .line {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: var(--text);
+        transition: transform 0.3s ease-in-out,
+                    opacity 0.1s ease-in-out;
+    }
+
+    .l1 {
+        transform: translateY(-10px);
+    }
+
+    .l3 {
+        transform: translateY(10px);
+    }
+
+    .nav__toggler.active .l1 {
+        transform: translateY(0) rotate(135deg);
+    }
+
+    .nav__toggler.active .l2 {
+        opacity: 0;
+    }
+
+    .nav__toggler.active .l3 {
+        transform: translateY(0) rotate(-135deg);
+    }
+
     .icon__link,
     .nav__link {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+        margin-left: 0;
     }
 
     section {
