@@ -183,7 +183,7 @@ footer p {
         flex-direction: column;
     }
 
-    .navigation{
+    .navigation {
         position: absolute;
         width: 50%;
         min-height: 100vh;
@@ -196,6 +196,7 @@ footer p {
         background-color: var(--colorSecondary);
         padding: 20px 40px; /* Pour la navigation sur le côté */
         transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
+        z-index: 5;
     }
 
     .navigation.active {
