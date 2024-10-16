@@ -1,6 +1,8 @@
 // Récupération des éléments HTML5
 const arrowBtn = document.querySelector(".arrow__btn");
 const currentYear = document.querySelector(".year");
+const menuBurger = document.querySelector(".nav__toggler");
+const navigation = document.querySelector(".navigation");
 
 // Déclaration de la fonction getCurrentYear qui va permettre l'affichage dynamique de l'année
 const getCurrentYear = () => {
@@ -27,10 +29,6 @@ arrowBtn.addEventListener("click", () => {
     behavior: "smooth", // Le défilement se fait en douceur
   });
 });
-
-// Récupération des différents éléments
-const menuBurger = document.querySelector(".nav__toggler");
-const navigation = document.querySelector(".navigation");
 
 // Déclaration de la fonction toggleNav qui va permettre l'affichage des liens de navigation
 const toggleNav = () => {
