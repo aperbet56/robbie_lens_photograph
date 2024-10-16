@@ -49,7 +49,7 @@ const testimonials = [
     name: "Lilian Tardy",
     note: "4.5/5",
     photo: "https://randomuser.me/api/portraits/men/12.jpg",
-    text: "Accueil convivial et photographe au top, a su nous mettre à l'aise et à l'écoute. Rapidité pour avoir nos photos. Je recommande en tout point..",
+    text: "Accueil convivial et photographe au top, a su nous mettre à l'aise et à l'écoute. Rapidité pour avoir nos photos. Je recommande en tout point.",
   },
 ];
 
