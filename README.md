@@ -23,6 +23,6 @@ Lien vers le projet : https://aperbet56.github.io/robbie_lens_photograph/
 - Animations CSS
 - Page web responsive
 - Desktop first
-- JavaScript
+- JavaScript (fonctions fléchées, écouteurs d'événement, création et ajout d'élément HTML dans le DOM...)
 - Code JavaScript commenté
 - Regex
