@@ -36,7 +36,7 @@
     cursor: pointer;
     background-color: var(--important);
     transition: box-shadow 0.3s ease-in-out,
-                background-color 0.3s ease-in-out;
+        background-color 0.3s ease-in-out;
 }
 
 .faq:hover,
@@ -75,7 +75,7 @@
 }
 
 .faq.active .answer {
-    max-height: fit-content; 
+    max-height: fit-content;
     animation: fade 1s ease-in-out;
 }
 
@@ -90,6 +90,7 @@
         opacity: 0;
         transform: translateY(-10px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
