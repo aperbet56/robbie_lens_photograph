@@ -1,5 +1,13 @@
 ## ROBBIE LENS PHOTGRAPHIE 📸 SITE COMPLET EN HTML5 CSS3 ET JAVASCRIPT
 
+![Design preview for the project](./img/banner-1.png)
+
+![Design preview for the project](./img/banner-2.png)
+
+![Design preview for the project](./img/banner-3.png)
+
+![Design preview for the project](./img/banner-4.png)
+
 ## Le challenge
 
 Création d'un simple complet responsive et dynamique ROBBIE LENS PHOTGRAPHIE en HTML5, CSS3 et JavaScript. Ce site comprend quatre pages :
