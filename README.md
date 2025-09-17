@@ -1,11 +1,15 @@
 ## ROBBIE LENS PHOTGRAPHIE 📸 SITE COMPLET EN HTML5 CSS3 ET JAVASCRIPT
 
+ACCUEIL :
 ![Design preview for the project](./img/banner-1.png)
 
+A PROPOS :
 ![Design preview for the project](./img/banner-2.png)
 
+POTFOLIO :
 ![Design preview for the project](./img/banner-3.png)
 
+FAQ :
 ![Design preview for the project](./img/banner-4.png)
 
 ## Le challenge
