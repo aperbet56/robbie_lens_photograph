@@ -65,6 +65,7 @@
 .answer {
     max-height: 0;
     overflow: hidden;
+    will-change: transform;
     transition: max-height 1.2s ease;
 }
 
@@ -72,6 +73,7 @@
     margin: 16px 0;
     color: var(--text);
     font-weight: 500;
+    will-change: transform;
 }
 
 .faq.active .answer {
@@ -88,7 +90,7 @@
 @keyframes fade {
     from {
         opacity: 0;
-        transform: translateY(-10px);
+        transform: translateY(-20px);
     }
 
     to {
