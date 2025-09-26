@@ -34,7 +34,7 @@ Lien vers le projet : https://aperbet56.github.io/robbie_lens_photograph/
 - Flexbox
 - Utilsation d'un normaliseur : le fichier normalize.css
 - Importation des polices "Montserrat" et "Manrope"
-- Animations CSS
+- Animations CSS (transiton, @keyframes)
 - Création d'un loader pour la page portfolio
 - Page web responsive
 - Desktop first
